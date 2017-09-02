@@ -1,0 +1,18 @@
+Problem 1
+a) 1,4
+b) 2,3,4
+c) 2,3,4,5
+d) 2
+e) 2,3
+
+Problem 2
+a) 3
+b) 1
+c) git add hw1q2b.cpp, git log
+d) it will locally save the changes to the repository
+e) git clone git@github.com:ncolegifford/cs104
+
+Problem 4
+1) CAlling 180 will divide 180 by numbers starting at 2, then divide the result by the next number that divides it evenly. each dividing number is then added up. Calling 180 returns 15, the sum of 2,2,3,3,5
+2) The call to funcA always terminates because it is a helper function that immediately passes the call to funcB
+3) each call finds a prime factor and adds it to the result of the initial number divided by the factor. funcA(n) will output the sum of n's prime factors
